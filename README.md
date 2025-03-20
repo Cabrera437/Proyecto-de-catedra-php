@@ -1,1 +1,1 @@
-# Proyecto-de-catedra-php
+# Proyecto-de-catedra-PHP
