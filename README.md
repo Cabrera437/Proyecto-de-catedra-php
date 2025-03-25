@@ -29,7 +29,7 @@ Esta apliCación web aun esta desarollo por momento  solo tenemos las vistas
 </table>
 </div>
 
-<h2>:open_file_folder: Otros Archivos importantes </h2>
+<h2>:open_file_folder: Archivos importantes </h2>
 
 >[Enlace de lo Diseño de los Muckup's 🎨]()
 
