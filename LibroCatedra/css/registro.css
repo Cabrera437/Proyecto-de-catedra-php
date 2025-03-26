@@ -1,0 +1,119 @@
+body {
+    background-color: #0B1C2B;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b1c2b;
+    padding: 20px 30px;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    padding-right: 25%;
+}
+hr{
+    width: 95%; 
+    margin: auto; 
+    border-bottom: 3px solid rgb(212, 212, 212);
+}
+.separador{
+    width: 100%; 
+    height: 2px;
+    background-color: white; 
+    margin-top: 5px; 
+}
+.nav-links {
+    display: flex;
+    gap: 50px;
+    margin-top: 35px;
+}
+.nav-links button:hover{
+    background: linear-gradient(135deg, #201C71, #3D35D7);
+}
+.nav-links button {
+    background-color: #3f37d7;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.search-box {
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.container {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+}
+.upload-box {
+    background-color: rgb(141, 141, 141);
+    width: 500px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.form-container {
+    width: 55%;
+    font-size: 0.9em;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; 
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 4px; 
+    margin-top: 15px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    padding: 15px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 97%;
+}
+
+.form-group select {
+    width: 40%; /* Ajusta el tamaño según necesites */
+}
+
+.btn-registrar {
+    background-color: #3f37d7;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+} 

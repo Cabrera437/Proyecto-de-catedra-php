@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleccion de Libros</title>
+    <link rel="stylesheet" type="text/css" href="../css/registro.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="title">LIBROS</div>
+        <div class="nav-links">
+        <a href="InicioLibros.php">
+            <button>inicio</button>
+        </a>
+        <a href="registroLibros.html">
+            <button>registrar libro</button>
+        </a>
+        <a href="coleccionLibros.php">
+            <button>colección</button>
+        </a>
+        <a href="Carrito.php">
+            <button>carrito</button>
+        </a>
+        <a href="register.php">
+            <button>registrarse</button>
+        </a>
+        </div>
+    
+    </div>
+    <hr>
+    <div class="container">
+        <div class="upload-box">
+            <p>Subir PDF</p>
+        </div>
+        
+        <div class="form-container">
+            <h2>Registro de Libro</h2>
+            <hr class="separador">
+            <form class="registro-libro" action="libroDetalles.php" method="POST">
+                <div class="form-group">
+                    <label for="titulo">Título</label>
+                    <input type="text" id="titulo" name="titulo" placeholder="Ingrese el título">
+                </div>
+            
+                <div class="form-group">
+                    <label for="autor">Autor/a</label>
+                    <input type="text" id="autor" name="autor" placeholder="Ingrese el autor/a">
+                </div>
+            
+                <div class="form-group">
+                    <label for="genero">Género</label>
+                    <input type="text" id="genero" name="genero" placeholder="Ingrese el género">
+                </div>
+            
+                <div class="form-group">
+                    <label for="num-pag">Número de páginas</label>
+                    <input type="number" id="num-pag" name="num-pag" placeholder="Cantidad de páginas">
+                </div>
+            
+                <div class="form-group">
+                    <label for="categoria">Categoría</label>
+                    <select id="categoria" name="categoria">
+                        <option value="novela">Novela</option>
+                        <option value="cuento">Cuento</option>
+                        <option value="poesia">Poesía</option>
+                    </select>
+                </div>
+            
+                <div class="form-group">
+                    <label for="descripcion">Descripción</label>
+                    <textarea id="descripcion" name="descripcion" rows="5" placeholder="Agregue una descripción"></textarea>
+                </div>
+            
+                <div class="form-group">
+                    <label for="precio">Precio</label>
+                    <input type="text" id="precio" name="precio" placeholder="Si no es de pago, dejar en blanco">
+                </div>
+            
+                <button type="submit" class="btn-registrar">Registrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+.titulo {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.contenedor-nav-busqueda {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+.icono-busqueda {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-busqueda {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.contenedor-busqueda input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.contenedor-busqueda button {
+    padding: 10px 15px;
+    background-color: #3D35D7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contenedor-busqueda button:hover {
+    background-color: #201C71;
+}
+
+.botones-filtro {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px; 
+    margin-left: 20px;
+}
+
+.contenedor-boton-filtro {
+    position: relative;
+}
+
+.boton-filtro {
+    background: linear-gradient(135deg, #3D35D7, #201C71);
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    width: 180px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton-filtro:hover {
+    background: linear-gradient(135deg, #201C71, #3D35D7);
+}
+
+.opciones-filtro {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 180px; 
+    background-color: #0B1C2B;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.opciones-filtro a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.opciones-filtro a:hover {
+    background-color: #201C71;
+}
+
+.icono-desplegable {
+    font-size: 18px;
+    margin-left: 10px;
+}

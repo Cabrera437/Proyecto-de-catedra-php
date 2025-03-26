@@ -1,0 +1,86 @@
+body {
+    background-color: #0A1324;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #0D1B2A;
+}
+
+.navbar .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links button {
+    background-color: #3D5A80;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.book-display {
+    display: flex;
+    background-color: #1B263B;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.book-cover img {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.book-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book-details h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 5px;
+}
+
+.book-details p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.buttons button {
+    background-color: #3D5A80;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
