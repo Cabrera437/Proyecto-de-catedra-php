@@ -1,9 +1,9 @@
 #    DSS404 G03T
 > [!IMPORTANT]
-> En este repositoria nuestro proyecto de catedra que trata sobre una Aplicación de gestión de colección de libros. <br>
+> En este repositoria esta nuestro proyecto de catedra que trata sobre una Aplicación de gestión de colección de libros. <br>
 
 > [!NOTE]
-Esta aplicación web aun esta desarollo por momento  solo tenemos las vistas 
+Esta aplicación web aun esta desarollo por momento  solo tenemos las vistas y funcionalidad en los logins
 
 
 > <h2>:wave: Equipo </h2>
